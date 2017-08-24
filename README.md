@@ -11,7 +11,7 @@ Animation recommendation system by using collaborative filtering & contents base
  
 1. Data preprocessing
 
- First of all, i have to make rating matrix of users per animation and genre matrix of movies. The '-1' means that user saw the animation, but didn't rated the animation. So, i replaced that value with 0. Also by transfering dense matrix to sparse matrix this process made lots of NaN values, and for similarity calculating use I have changed it to 0. Finally i combined two matrices by key, 'user'.
+ First of all, i have to make rating matrix of users per animation and genre matrix of movies. The '-1' means that user saw the animation, but didn't rated the animation. So, i have replaced that value with 0. Also by transfering dense matrix to sparse matrix this process made lots of NaN values, and for similarity calculating use I have changed it to 0. Finally i combined two matrices by key, 'user'.
  
 2. Modeling
  
